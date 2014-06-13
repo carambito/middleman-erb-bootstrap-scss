@@ -1,4 +1,7 @@
 # Getting Started with Middleman
+## Project
+middleman-erb-bootstrap-scss
+
 ## Overview
 * Middleman is a static site generator built on Sinatra
 * This version of Middleman uses a default of erb, scss, media queries, compass css3, Bootstrap 3 framework, normalizer, jquery, modernizer
