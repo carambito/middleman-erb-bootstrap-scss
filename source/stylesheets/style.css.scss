@@ -1,0 +1,88 @@
+
+// COLORS
+$white:  #FFFFFF;
+$black:  #000000;
+$red:    #FF0000;
+$orange: #FF9900;
+$yellow: #FFFF00;
+$green:  #009900;
+$blue:   #0000FF;
+$violet: #FF00FF;
+$gray:   #999999;
+
+// Compass
+@import "compass";
+
+// Bootstrap with Normalize and h5bp:
+@import "vendor/bootstrap/bootstrap";
+@import "vendor/bootstrap/bootstrap-theme.min";
+
+// h5bp Only - uncomment to use
+// @import "vendor/html5boilerplate/main";
+
+// 960.gs Grid System - uncomment to use
+//  don't forget to uncomment the "require 'ninesixty'" line in config.rb!
+// @import "960grid"
+
+// Your own styles go here - Example is an google font import
+// @import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px arial,sans-serif;
+}
+
+// Sticky Footer Example
+// Wrapper for page content to push down footer
+#page-wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+// Set the fixed height of the footer here
+#footer {
+  height: 60px;
+  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+h1,h2,h3,h4 {
+  // font-family: ;
+  vertical-align:middle;
+}
+
+//sections
+.masthead {
+  color: #ffffff;
+  min-height: 693px;
+  height: auto !important;
+  height: 100%;
+  padding-top: 100px;
+
+  background: url('../images/image.jpg') no-repeat center 0% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// Other Styling Stabilizers---
+// Uncomment to use Media Queries - But Use only one set
+// @import "media-queries";
+
+// Uncomment to use h5bp helpers - These imports should remain below the bulk of the stylesheet so they can override correctly.
+// @import "vendor/html5boilerplate/nonsemantichelpers", "vendor/html5boilerplate/mediaqueries";
+
