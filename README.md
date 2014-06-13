@@ -12,7 +12,7 @@
 1. $ rvm --create use 1.9.3-p385@middleman385 --rvmrc
 1. $ cd ..
 1. $ cd landing
-1. $ rvm rvmrc to [.]ruby-version
+1. $ rvm rvmrc to .ruby-version
 1. $ gem install middleman -v 3.3.2
 1. $ bundle
 
